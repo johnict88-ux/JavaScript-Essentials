@@ -1,4 +1,5 @@
 Shopping Cart Engine: Functional Logic & DOM Integration
+
 This project is a deep dive into Functional Programming using Vanilla JavaScript. It demonstrates how to take a raw dataset (JSON-like objects), process it through a mathematical engine, and dynamically update the browser's Document Object Model (DOM).
 
 📸 Final Result
