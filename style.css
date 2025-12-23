@@ -1,0 +1,66 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f4f7f6;
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.container {
+	width: 800px;
+	background: white;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.layout {
+	display: flex;
+	gap: 40px;
+	margin-top: 20px;
+}
+
+.inventory, .invoice-box {
+	flex: 1;
+}
+
+.card {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+
+.out-of-stock {
+	opacity: 0.5;
+	text-decoration: line-through;
+}
+
+button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 12px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+/* The function output */
+.invoice-box {
+	background: #f9f9f9;
+	padding: 20px;
+	border-left: 4px solid #007bff;
+}
+
+.total-line {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #28a745;
+	margin-top: 10px;
+}
